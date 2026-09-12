@@ -74,7 +74,7 @@ miniproject1/
 
 | ลำดับ | รายชื่อผู้จัดทำ|Email| บทบาทและหน้าที่ (Role) | เทคโนโลยีที่รับผิดชอบ |
 | :---: | :--- | :--- | :--- | :--- |
-| 1 | **นางสาวนิฤมน ศรีวิชา** |niruemol.sriw@bumail.net |  Frontend Developer|`HTML5`, `CSS3` (โครงสร้างหน้าเว็บและสไตล์ Responsive) |
+| 1 | **นางสาวนิฤมน ศรีวิชา** |Email: niruemol.sriw@bumail.net |  Frontend Developer|`HTML5`, `CSS3` (โครงสร้างหน้าเว็บและสไตล์ Responsive) |
 | 2 | **นายธนากร กระสายกลาง**|Email:thanakorn.urllen@gmail.com | Logic & Validation | `JavaScript (Vanilla JS)` (ระบบตรวจสอบฟอร์มและป๊อปอัป) |
 | 3 | **นางสาวกมลวรรณ จารไทสงค์**|Email:kamonwan.jarn@bumail.net | Deployment & Version Control | `Vercel`, `GitHub` (การจัดการโค้ดและนำขึ้นออนไลน์) |
 
