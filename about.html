@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | AI Future Talent Platform</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Prompt:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Master Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-badge">AI</span>
+                <span>TalentPlatform</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="jobvacancies.html">Job Vacancies</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="index.html#registration-section" class="nav-cta">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="hero" style="padding: 3.5rem 1.5rem 4rem 1.5rem;">
+            <div class="hero-content">
+                <span class="hero-tag">ABOUT US & CONTACT</span>
+                <h1>AI NextGen Workforce Solutions</h1>
+                <p>แพลตฟอร์มที่เชื่อมโยงระหว่างผู้มีความสามารถด้าน AI และองค์กรชั้นนำ พร้อมส่งเสริมการเรียนรู้ตลอดชีวิต
+                </p>
+            </div>
+        </section>
+
+        <!-- About & Contact Section -->
+        <section class="container">
+            <div class="about-grid">
+
+                <!-- Left: Company Info & Map -->
+                <div class="company-card">
+                    <h3>เกี่ยวกับเรา (About Us)</h3>
+                    <p>
+                        <strong>AI NextGen Workforce Solutions</strong>
+                        มุ่งมั่นในการเป็นศูนย์กลางพัฒนาและคัดสรรบุคลากรยุคใหม่ที่พร้อมทำงานร่วมกับปัญญาประดิษฐ์
+                        (Human-AI Symbiosis) เพื่อยกระดับความสามารถในการแข่งขันของประเทศไทยในเวทีระดับสากล
+                    </p>
+
+                    <h4 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--text-main);">📍 ที่ตั้งสำนักงาน
+                        (Location & Address)</h4>
+                    <address class="address-box">
+                        <strong>มหาวิทยาลัยกรุงเทพ (วิทยาเขตรังสิต)</strong><br>
+                        9/1 หมู่ 5 ถนนพหลโยธิน ตำบลคลองหนึ่ง อำเภอคลองหลวง จังหวัดปทุมธานี 12120<br>
+                        <span style="font-size: 0.88rem; color: var(--text-muted);">โทร: 02-123-4567 | อีเมล:
+                            contact@aitalent.ac.th</span>
+                    </address>
+
+                    <h4 style="font-size: 1.05rem; margin-bottom: 0.75rem; color: var(--text-main);">🗺️ แผนที่สำนักงาน
+                        (Office Map)</h4>
+                    <div class="map-wrapper">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3871.970285641771!2d100.6124508759078!3d14.039601389880854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e280145c22509b%3A0x6b44a737f174e92a!2sBangkok%20University!5e0!3m2!1sth!2sth!4v1710000000000!5m2!1sth!2sth"
+                            width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <!-- Right: Contact Form -->
+                <div class="company-card" style="border-top: 4px solid var(--primary);">
+                    <h3>ติดต่อเรา (Contact Us)</h3>
+                    <p style="margin-bottom: 1.5rem;">สำหรับนักศึกษาหรือผู้สนใจสอบถามข้อมูลเพิ่มเติม
+                        สามารถกรอกแบบฟอร์มด้านล่างนี้</p>
+
+                    <form id="contactForm" novalidate>
+                        <div class="form-group" style="margin-bottom: 1rem;">
+                            <label for="name" class="form-label">ชื่อ-นามสกุล <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" class="form-control"
+                                placeholder="ชื่อ-นามสกุล ของคุณ" required>
+                        </div>
+                        <div class="form-group" style="margin-bottom: 1rem;">
+                            <label for="email" class="form-label">อีเมล <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" class="form-control"
+                                placeholder="yourname@example.com" required>
+                        </div>
+
+                        <div class="form-group" style="margin-bottom: 1rem;">
+                            <label for="phone" class="form-label">เบอร์โทรศัพท์ <span class="required">*</span></label>
+                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="0812345678"
+                                required>
+                        </div>
+
+                        <div class="form-group" style="margin-bottom: 1.5rem;">
+                            <label for="message" class="form-label">ข้อความ / คำถามที่ต้องการสอบถาม <span
+                                    class="required">*</span></label>
+                            <textarea id="message" name="message" class="form-control"
+                                placeholder="พิมพ์ข้อความที่นี่..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">ส่งข้อความ (Submit Message)</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <!-- Development Team Section (3 Developers) -->
+            <div class="team-section">
+                <div class="section-header">
+                    <span class="section-tag">PROJECT CREATORS</span>
+                    <h2 class="section-title">ทีมผู้พัฒนาเว็บไซต์ (Development Team)</h2>
+                    <p class="section-subtitle">คณะผู้จัดทำโครงงานพัฒนาระบบ AI Future Talent Acquisition Platform</p>
+                </div>
+
+                <div class="team-grid">
+                    <!-- Developer 1: Frontend -->
+                    <div class="team-card">
+                        <div class="team-photo-wrapper">
+                            <!-- ใส่รูปภาพขนาด 1:1 (เช่น img/dev1.jpg หรือ img/dev1.png) -->
+                            <img src="img/dev1.png" alt="dev1" onerror="this.style.display='none';">
+                            <div class="team-photo-placeholder">
+                                <!-- <span class="placeholder-text">รูปภาพ (1:1)<br><small
+                                    style="color:#94a3b8;">img/dev1.jpg</small></span> -->
+                                <span class="placeholder-icon">💻</span>
+                                <span class="placeholder-text">รูปภาพ (1:1)<br><small
+                                        style="color:#94a3b8;">img/dev1.png</small></span>
+                            </div>
+                        </div>
+                        <h3 class="team-name">นางสาวนิฤมน ศรีวิชา</h3>
+                        <span class="team-id">รหัสนักศึกษา: 1660704923</span>
+                        <div class="team-role">Frontend Developer</div>
+                        <p class="team-desc">พัฒนาโครงสร้างหน้าเว็บทั้งหมดและจัดสไตล์การแสดงผลแบบ Responsive ด้วย
+                            <strong>HTML5 และ CSS3</strong>
+                        </p>
+                        <div class="team-tags">
+                            <span class="team-tag">HTML5</span>
+                            <span class="team-tag">CSS3</span>
+                        </div>
+                    </div>
+
+                    <!-- Developer 2: Logic & Validation -->
+                    <div class="team-card">
+                        <div class="team-photo-wrapper">
+                            <!-- ใส่รูปภาพขนาด 1:1 (เช่น img/dev2.jpg หรือ img/dev2.png) -->
+                            <img src="img/dev2.png" alt="dev2" onerror="this.style.display='none';">
+                            <div class="team-photo-placeholder">
+                                <!-- <span class="placeholder-text">รูปภาพ (1:1)<br><small
+                                        style="color:#94a3b8;">img/dev2.jpg</small></span> -->
+                                <span class="placeholder-icon">⚙️</span>
+                                <span class="placeholder-text">รูปภาพ (1:1)<br><small
+                                        style="color:#94a3b8;">img/dev2.png</small></span>
+                            </div>
+                        </div>
+                        <h3 class="team-name">นายธนากร กระสายกลาง</h3>
+                        <span class="team-id">รหัสนักศึกษา: 1660703172</span>
+                        <div class="team-role">JavaScript & Form Validation</div>
+                        <p class="team-desc">พัฒนาระบบตรวจสอบความถูกต้องของฟอร์ม (Validation)
+                            และการโต้ตอบของหน้าเว็บด้วย <strong>JavaScript (Vanilla JS)</strong></p>
+                        <div class="team-tags">
+                            <span class="team-tag">JavaScript</span>
+                            <span class="team-tag">Form Validation</span>
+                        </div>
+                    </div>
+
+                    <!-- Developer 3: Deploy & Git -->
+                    <div class="team-card">
+                        <div class="team-photo-wrapper">
+                            <!-- ใส่รูปภาพขนาด 1:1 (เช่น img/dev3.jpg หรือ img/dev3.png) -->
+                            <img src="img/dev3.png" alt="dev3" onerror="this.style.display='none';">
+                            <div class="team-photo-placeholder">
+                                <!-- <span class="placeholder-text">รูปภาพ (1:1)<br><small
+                                    style="color:#94a3b8;">img/dev3.jpg</small></span> -->
+                                <span class="placeholder-icon">🚀</span>
+                                <span class="placeholder-text">รูปภาพ (1:1)<br><small
+                                        style="color:#94a3b8;">img/dev3.png</small></span>
+                            </div>
+                        </div>
+                        <h3 class="team-name">นางกมลวรรณ จารไทสงค์</h3>
+                        <span class="team-id">รหัสนักศึกษา: 1660704931</span>
+                        <div class="team-role">Deployment & Version Control</div>
+                        <p class="team-desc">ดูแลการนำเว็บไซต์ขึ้นเผยแพร่ออนไลน์ด้วย <strong>Vercel</strong> และจัดการ
+                            Version Control ด้วย <strong>GitHub</strong></p>
+                        <div class="team-tags">
+                            <span class="team-tag">Vercel</span>
+                            <span class="team-tag">GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h4><span class="logo-badge">AI</span> TalentPlatform</h4>
+                <p>แพลตฟอร์มสรรหาและพัฒนาบุคลากรแห่งอนาคต เพื่อขับเคลื่อนศักยภาพของบุคลากรไทยในยุคปัญญาประดิษฐ์</p>
+            </div>
+            <div class="footer-links">
+                <h5>เมนูลัด (Quick Links)</h5>
+                <ul>
+                    <li><a href="index.html">หน้าแรก (Home)</a></li>
+                    <li><a href="jobvacancies.html">ตำแหน่งงาน (Job Vacancies)</a></li>
+                    <li><a href="courses.html">หลักสูตร (Courses)</a></li>
+                    <li><a href="about.html">เกี่ยวกับเรา (About Us)</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h5>ติดต่อเรา (Contact)</h5>
+                <p style="font-size: 0.88rem; margin-bottom: 6px;">อีเมล: contact@aitalent.ac.th</p>
+                <p style="font-size: 0.88rem; margin-bottom: 6px;">โทร: 02-123-4567</p>
+                <p style="font-size: 0.88rem;">วันทำการ: จันทร์ - ศุกร์ (09:00 - 18:00 น.)</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AI Future Talent Acquisition and Skills Development Platform. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/validation.js"></script>
+</body>
+
+</html>
