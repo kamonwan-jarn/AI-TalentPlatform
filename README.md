@@ -74,9 +74,9 @@ miniproject1/
 
 | ลำดับ | รายชื่อผู้จัดทำ | บทบาทและหน้าที่ (Role) | เทคโนโลยีที่รับผิดชอบ |
 | :---: | :--- | :--- | :--- |
-| 1 | **นายสมชาย ใจดี** | Frontend Developer | `HTML5`, `CSS3` (โครงสร้างหน้าเว็บและสไตล์ Responsive) |
-| 2 | **นางสาวสมหญิง รักเรียน** | Logic & Validation | `JavaScript (Vanilla JS)` (ระบบตรวจสอบฟอร์มและป๊อปอัป) |
-| 3 | **นายกิตติศักดิ์ พัฒนา** | Deployment & Version Control | `Vercel`, `GitHub` (การจัดการโค้ดและนำขึ้นออนไลน์) |
+| 1 | **นางสาวนิฤมน ศรีวิชา** | Frontend Developer | `HTML5`, `CSS3` (โครงสร้างหน้าเว็บและสไตล์ Responsive) |
+| 2 | **นายธนากร กระสายกลาง** | Logic & Validation | `JavaScript (Vanilla JS)` (ระบบตรวจสอบฟอร์มและป๊อปอัป) |
+| 3 | **นางสาวกมลวรรณ จารไทสงค์** | Deployment & Version Control | `Vercel`, `GitHub` (การจัดการโค้ดและนำขึ้นออนไลน์) |
 
 ---
 © 2026 AI Future Talent Platform. All rights reserved.
