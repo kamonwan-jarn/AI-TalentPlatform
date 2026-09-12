@@ -74,9 +74,9 @@ miniproject1/
 
 | ลำดับ | รายชื่อผู้จัดทำ | บทบาทและหน้าที่ (Role) | เทคโนโลยีที่รับผิดชอบ |
 | :---: | :--- | :--- | :--- |
-| 1 | **นางสาวนิฤมน ศรีวิชา** | Frontend Developer | `HTML5`, `CSS3` (โครงสร้างหน้าเว็บและสไตล์ Responsive) |
-| 2 | **นายธนากร กระสายกลาง** | Logic & Validation | `JavaScript (Vanilla JS)` (ระบบตรวจสอบฟอร์มและป๊อปอัป) |
-| 3 | **นางสาวกมลวรรณ จารไทสงค์** | Deployment & Version Control | `Vercel`, `GitHub` (การจัดการโค้ดและนำขึ้นออนไลน์) |
+| 1 | **นางสาวนิฤมน ศรีวิชา** | Frontend Developer|niruemol.sriw@bumail.net | `HTML5`, `CSS3` (โครงสร้างหน้าเว็บและสไตล์ Responsive) |
+| 2 | **นายธนากร กระสายกลาง**|Email:thanakorn.urllen@bumail.net | Logic & Validation | `JavaScript (Vanilla JS)` (ระบบตรวจสอบฟอร์มและป๊อปอัป) |
+| 3 | **นางสาวกมลวรรณ จารไทสงค์**|Email:kamonwan.jarn@bumail.net | Deployment & Version Control | `Vercel`, `GitHub` (การจัดการโค้ดและนำขึ้นออนไลน์) |
 
 ---
 © 2026 AI Future Talent Platform. All rights reserved.
